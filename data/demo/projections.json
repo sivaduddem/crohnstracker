@@ -1,0 +1,368 @@
+{
+  "umap": [
+    {
+      "case_id": "demo_normal_01",
+      "x": 1.2,
+      "y": 0.0,
+      "gt_label": "normal",
+      "pred_label": "normal",
+      "confidence": 0.88,
+      "severity": "mild",
+      "thumbnail_url": "/media/images/demo_normal_01.png"
+    },
+    {
+      "case_id": "demo_normal_02",
+      "x": 1.0392,
+      "y": 0.6,
+      "gt_label": "normal",
+      "pred_label": "normal",
+      "confidence": 0.9,
+      "severity": "moderate",
+      "thumbnail_url": "/media/images/demo_normal_02.png"
+    },
+    {
+      "case_id": "demo_normal_03",
+      "x": 0.6,
+      "y": 1.0392,
+      "gt_label": "normal",
+      "pred_label": "normal",
+      "confidence": 0.92,
+      "severity": "severe",
+      "thumbnail_url": "/media/images/demo_normal_03.png"
+    },
+    {
+      "case_id": "demo_erythema_01",
+      "x": 0.2,
+      "y": 1.4,
+      "gt_label": "erythema",
+      "pred_label": "erythema",
+      "confidence": 0.88,
+      "severity": "mild",
+      "thumbnail_url": "/media/images/demo_erythema_01.png"
+    },
+    {
+      "case_id": "demo_erythema_02",
+      "x": -0.55,
+      "y": 1.199,
+      "gt_label": "erythema",
+      "pred_label": "erythema",
+      "confidence": 0.9,
+      "severity": "moderate",
+      "thumbnail_url": "/media/images/demo_erythema_02.png"
+    },
+    {
+      "case_id": "demo_erythema_03",
+      "x": -1.099,
+      "y": 0.65,
+      "gt_label": "erythema",
+      "pred_label": "erythema",
+      "confidence": 0.92,
+      "severity": "severe",
+      "thumbnail_url": "/media/images/demo_erythema_03.png"
+    },
+    {
+      "case_id": "demo_erosion_01",
+      "x": -1.4,
+      "y": -0.2,
+      "gt_label": "erosion",
+      "pred_label": "erosion",
+      "confidence": 0.88,
+      "severity": "mild",
+      "thumbnail_url": "/media/images/demo_erosion_01.png"
+    },
+    {
+      "case_id": "demo_erosion_02",
+      "x": -1.1588,
+      "y": -1.1,
+      "gt_label": "erosion",
+      "pred_label": "erosion",
+      "confidence": 0.9,
+      "severity": "moderate",
+      "thumbnail_url": "/media/images/demo_erosion_02.png"
+    },
+    {
+      "case_id": "demo_erosion_03",
+      "x": -0.5,
+      "y": -1.7588,
+      "gt_label": "erosion",
+      "pred_label": "erosion",
+      "confidence": 0.92,
+      "severity": "severe",
+      "thumbnail_url": "/media/images/demo_erosion_03.png"
+    },
+    {
+      "case_id": "demo_ulcer_01",
+      "x": 0.6,
+      "y": -2.4,
+      "gt_label": "ulcer",
+      "pred_label": "ulcer",
+      "confidence": 0.88,
+      "severity": "mild",
+      "thumbnail_url": "/media/images/demo_ulcer_01.png"
+    },
+    {
+      "case_id": "demo_ulcer_02",
+      "x": 1.65,
+      "y": -2.1187,
+      "gt_label": "ulcer",
+      "pred_label": "ulcer",
+      "confidence": 0.9,
+      "severity": "moderate",
+      "thumbnail_url": "/media/images/demo_ulcer_02.png"
+    },
+    {
+      "case_id": "demo_ulcer_03",
+      "x": 2.4187,
+      "y": -1.35,
+      "gt_label": "ulcer",
+      "pred_label": "erosion",
+      "confidence": 0.51,
+      "severity": "severe",
+      "thumbnail_url": "/media/images/demo_ulcer_03.png"
+    }
+  ],
+  "tsne": [
+    {
+      "case_id": "demo_normal_01",
+      "x": 0.0,
+      "y": 0.0,
+      "gt_label": "normal",
+      "pred_label": "normal",
+      "confidence": 0.88,
+      "severity": "mild",
+      "thumbnail_url": "/media/images/demo_normal_01.png"
+    },
+    {
+      "case_id": "demo_normal_02",
+      "x": 0.3,
+      "y": 1.0,
+      "gt_label": "normal",
+      "pred_label": "normal",
+      "confidence": 0.9,
+      "severity": "moderate",
+      "thumbnail_url": "/media/images/demo_normal_02.png"
+    },
+    {
+      "case_id": "demo_normal_03",
+      "x": 0.6,
+      "y": 2.0,
+      "gt_label": "normal",
+      "pred_label": "normal",
+      "confidence": 0.92,
+      "severity": "severe",
+      "thumbnail_url": "/media/images/demo_normal_03.png"
+    },
+    {
+      "case_id": "demo_erythema_01",
+      "x": 1.0,
+      "y": -0.2,
+      "gt_label": "erythema",
+      "pred_label": "erythema",
+      "confidence": 0.88,
+      "severity": "mild",
+      "thumbnail_url": "/media/images/demo_erythema_01.png"
+    },
+    {
+      "case_id": "demo_erythema_02",
+      "x": 1.3,
+      "y": 0.8,
+      "gt_label": "erythema",
+      "pred_label": "erythema",
+      "confidence": 0.9,
+      "severity": "moderate",
+      "thumbnail_url": "/media/images/demo_erythema_02.png"
+    },
+    {
+      "case_id": "demo_erythema_03",
+      "x": 1.6,
+      "y": 1.8,
+      "gt_label": "erythema",
+      "pred_label": "erythema",
+      "confidence": 0.92,
+      "severity": "severe",
+      "thumbnail_url": "/media/images/demo_erythema_03.png"
+    },
+    {
+      "case_id": "demo_erosion_01",
+      "x": 2.0,
+      "y": -0.4,
+      "gt_label": "erosion",
+      "pred_label": "erosion",
+      "confidence": 0.88,
+      "severity": "mild",
+      "thumbnail_url": "/media/images/demo_erosion_01.png"
+    },
+    {
+      "case_id": "demo_erosion_02",
+      "x": 2.3,
+      "y": 0.6,
+      "gt_label": "erosion",
+      "pred_label": "erosion",
+      "confidence": 0.9,
+      "severity": "moderate",
+      "thumbnail_url": "/media/images/demo_erosion_02.png"
+    },
+    {
+      "case_id": "demo_erosion_03",
+      "x": 2.6,
+      "y": 1.6,
+      "gt_label": "erosion",
+      "pred_label": "erosion",
+      "confidence": 0.92,
+      "severity": "severe",
+      "thumbnail_url": "/media/images/demo_erosion_03.png"
+    },
+    {
+      "case_id": "demo_ulcer_01",
+      "x": 3.0,
+      "y": -0.6,
+      "gt_label": "ulcer",
+      "pred_label": "ulcer",
+      "confidence": 0.88,
+      "severity": "mild",
+      "thumbnail_url": "/media/images/demo_ulcer_01.png"
+    },
+    {
+      "case_id": "demo_ulcer_02",
+      "x": 3.3,
+      "y": 0.4,
+      "gt_label": "ulcer",
+      "pred_label": "ulcer",
+      "confidence": 0.9,
+      "severity": "moderate",
+      "thumbnail_url": "/media/images/demo_ulcer_02.png"
+    },
+    {
+      "case_id": "demo_ulcer_03",
+      "x": 3.6,
+      "y": 1.4,
+      "gt_label": "ulcer",
+      "pred_label": "erosion",
+      "confidence": 0.51,
+      "severity": "severe",
+      "thumbnail_url": "/media/images/demo_ulcer_03.png"
+    }
+  ],
+  "pca": [
+    {
+      "case_id": "demo_normal_01",
+      "x": 0.0,
+      "y": -1.2,
+      "gt_label": "normal",
+      "pred_label": "normal",
+      "confidence": 0.88,
+      "severity": "mild",
+      "thumbnail_url": "/media/images/demo_normal_01.png"
+    },
+    {
+      "case_id": "demo_normal_02",
+      "x": 0.4,
+      "y": -1.2,
+      "gt_label": "normal",
+      "pred_label": "normal",
+      "confidence": 0.9,
+      "severity": "moderate",
+      "thumbnail_url": "/media/images/demo_normal_02.png"
+    },
+    {
+      "case_id": "demo_normal_03",
+      "x": 0.8,
+      "y": -1.2,
+      "gt_label": "normal",
+      "pred_label": "normal",
+      "confidence": 0.92,
+      "severity": "severe",
+      "thumbnail_url": "/media/images/demo_normal_03.png"
+    },
+    {
+      "case_id": "demo_erythema_01",
+      "x": 1.2,
+      "y": -0.4,
+      "gt_label": "erythema",
+      "pred_label": "erythema",
+      "confidence": 0.88,
+      "severity": "mild",
+      "thumbnail_url": "/media/images/demo_erythema_01.png"
+    },
+    {
+      "case_id": "demo_erythema_02",
+      "x": 1.6,
+      "y": -0.4,
+      "gt_label": "erythema",
+      "pred_label": "erythema",
+      "confidence": 0.9,
+      "severity": "moderate",
+      "thumbnail_url": "/media/images/demo_erythema_02.png"
+    },
+    {
+      "case_id": "demo_erythema_03",
+      "x": 2.0,
+      "y": -0.4,
+      "gt_label": "erythema",
+      "pred_label": "erythema",
+      "confidence": 0.92,
+      "severity": "severe",
+      "thumbnail_url": "/media/images/demo_erythema_03.png"
+    },
+    {
+      "case_id": "demo_erosion_01",
+      "x": 2.4,
+      "y": 0.4,
+      "gt_label": "erosion",
+      "pred_label": "erosion",
+      "confidence": 0.88,
+      "severity": "mild",
+      "thumbnail_url": "/media/images/demo_erosion_01.png"
+    },
+    {
+      "case_id": "demo_erosion_02",
+      "x": 2.8,
+      "y": 0.4,
+      "gt_label": "erosion",
+      "pred_label": "erosion",
+      "confidence": 0.9,
+      "severity": "moderate",
+      "thumbnail_url": "/media/images/demo_erosion_02.png"
+    },
+    {
+      "case_id": "demo_erosion_03",
+      "x": 3.2,
+      "y": 0.4,
+      "gt_label": "erosion",
+      "pred_label": "erosion",
+      "confidence": 0.92,
+      "severity": "severe",
+      "thumbnail_url": "/media/images/demo_erosion_03.png"
+    },
+    {
+      "case_id": "demo_ulcer_01",
+      "x": 3.6,
+      "y": 1.2,
+      "gt_label": "ulcer",
+      "pred_label": "ulcer",
+      "confidence": 0.88,
+      "severity": "mild",
+      "thumbnail_url": "/media/images/demo_ulcer_01.png"
+    },
+    {
+      "case_id": "demo_ulcer_02",
+      "x": 4.0,
+      "y": 1.2,
+      "gt_label": "ulcer",
+      "pred_label": "ulcer",
+      "confidence": 0.9,
+      "severity": "moderate",
+      "thumbnail_url": "/media/images/demo_ulcer_02.png"
+    },
+    {
+      "case_id": "demo_ulcer_03",
+      "x": 4.4,
+      "y": 1.2,
+      "gt_label": "ulcer",
+      "pred_label": "erosion",
+      "confidence": 0.51,
+      "severity": "severe",
+      "thumbnail_url": "/media/images/demo_ulcer_03.png"
+    }
+  ]
+}

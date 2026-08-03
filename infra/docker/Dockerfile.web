@@ -1,0 +1,15 @@
+FROM node:20-alpine
+
+WORKDIR /app
+
+COPY packages/shared/ts /app/packages/shared/ts
+COPY apps/web/package.json /app/apps/web/package.json
+WORKDIR /app/apps/web
+RUN npm install
+
+COPY apps/web /app/apps/web
+COPY packages/shared/ts /app/packages/shared/ts
+
+ENV VITE_API_BASE_URL=http://localhost:8000
+EXPOSE 5173
+CMD ["npm", "run", "dev", "--", "--host", "0.0.0.0", "--port", "5173"]

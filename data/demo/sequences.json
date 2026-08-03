@@ -1,0 +1,52 @@
+{
+  "events": [
+    {
+      "sequence_id": "demo_video_normal",
+      "start_frame": 0,
+      "end_frame": 20,
+      "label": "normal",
+      "peak_confidence": 0.92,
+      "case_ids": [
+        "demo_normal_01",
+        "demo_normal_02",
+        "demo_normal_03"
+      ]
+    },
+    {
+      "sequence_id": "demo_video_erythema",
+      "start_frame": 0,
+      "end_frame": 20,
+      "label": "erythema",
+      "peak_confidence": 0.92,
+      "case_ids": [
+        "demo_erythema_01",
+        "demo_erythema_02",
+        "demo_erythema_03"
+      ]
+    },
+    {
+      "sequence_id": "demo_video_erosion",
+      "start_frame": 0,
+      "end_frame": 20,
+      "label": "erosion",
+      "peak_confidence": 0.92,
+      "case_ids": [
+        "demo_erosion_01",
+        "demo_erosion_02",
+        "demo_erosion_03"
+      ]
+    },
+    {
+      "sequence_id": "demo_video_ulcer",
+      "start_frame": 0,
+      "end_frame": 20,
+      "label": "ulcer",
+      "peak_confidence": 0.92,
+      "case_ids": [
+        "demo_ulcer_01",
+        "demo_ulcer_02",
+        "demo_ulcer_03"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+"""CrohnTracker FastAPI application."""

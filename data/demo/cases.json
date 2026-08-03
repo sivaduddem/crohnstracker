@@ -1,0 +1,150 @@
+{
+  "embedding_dim": 32,
+  "cases": [
+    {
+      "id": "demo_normal_01",
+      "source": "demo_fixture",
+      "video_id": "demo_video_normal",
+      "frame_idx": 0,
+      "path": "images/demo_normal_01.png",
+      "gt_label": "normal",
+      "severity": "mild",
+      "split": "demo",
+      "pred_label": "normal",
+      "confidence": 0.88
+    },
+    {
+      "id": "demo_normal_02",
+      "source": "demo_fixture",
+      "video_id": "demo_video_normal",
+      "frame_idx": 10,
+      "path": "images/demo_normal_02.png",
+      "gt_label": "normal",
+      "severity": "moderate",
+      "split": "demo",
+      "pred_label": "normal",
+      "confidence": 0.9
+    },
+    {
+      "id": "demo_normal_03",
+      "source": "demo_fixture",
+      "video_id": "demo_video_normal",
+      "frame_idx": 20,
+      "path": "images/demo_normal_03.png",
+      "gt_label": "normal",
+      "severity": "severe",
+      "split": "demo",
+      "pred_label": "normal",
+      "confidence": 0.92
+    },
+    {
+      "id": "demo_erythema_01",
+      "source": "demo_fixture",
+      "video_id": "demo_video_erythema",
+      "frame_idx": 0,
+      "path": "images/demo_erythema_01.png",
+      "gt_label": "erythema",
+      "severity": "mild",
+      "split": "demo",
+      "pred_label": "erythema",
+      "confidence": 0.88
+    },
+    {
+      "id": "demo_erythema_02",
+      "source": "demo_fixture",
+      "video_id": "demo_video_erythema",
+      "frame_idx": 10,
+      "path": "images/demo_erythema_02.png",
+      "gt_label": "erythema",
+      "severity": "moderate",
+      "split": "demo",
+      "pred_label": "erythema",
+      "confidence": 0.9
+    },
+    {
+      "id": "demo_erythema_03",
+      "source": "demo_fixture",
+      "video_id": "demo_video_erythema",
+      "frame_idx": 20,
+      "path": "images/demo_erythema_03.png",
+      "gt_label": "erythema",
+      "severity": "severe",
+      "split": "demo",
+      "pred_label": "erythema",
+      "confidence": 0.92
+    },
+    {
+      "id": "demo_erosion_01",
+      "source": "demo_fixture",
+      "video_id": "demo_video_erosion",
+      "frame_idx": 0,
+      "path": "images/demo_erosion_01.png",
+      "gt_label": "erosion",
+      "severity": "mild",
+      "split": "demo",
+      "pred_label": "erosion",
+      "confidence": 0.88
+    },
+    {
+      "id": "demo_erosion_02",
+      "source": "demo_fixture",
+      "video_id": "demo_video_erosion",
+      "frame_idx": 10,
+      "path": "images/demo_erosion_02.png",
+      "gt_label": "erosion",
+      "severity": "moderate",
+      "split": "demo",
+      "pred_label": "erosion",
+      "confidence": 0.9
+    },
+    {
+      "id": "demo_erosion_03",
+      "source": "demo_fixture",
+      "video_id": "demo_video_erosion",
+      "frame_idx": 20,
+      "path": "images/demo_erosion_03.png",
+      "gt_label": "erosion",
+      "severity": "severe",
+      "split": "demo",
+      "pred_label": "erosion",
+      "confidence": 0.92
+    },
+    {
+      "id": "demo_ulcer_01",
+      "source": "demo_fixture",
+      "video_id": "demo_video_ulcer",
+      "frame_idx": 0,
+      "path": "images/demo_ulcer_01.png",
+      "gt_label": "ulcer",
+      "severity": "mild",
+      "split": "demo",
+      "pred_label": "ulcer",
+      "confidence": 0.88
+    },
+    {
+      "id": "demo_ulcer_02",
+      "source": "demo_fixture",
+      "video_id": "demo_video_ulcer",
+      "frame_idx": 10,
+      "path": "images/demo_ulcer_02.png",
+      "gt_label": "ulcer",
+      "severity": "moderate",
+      "split": "demo",
+      "pred_label": "ulcer",
+      "confidence": 0.9
+    },
+    {
+      "id": "demo_ulcer_03",
+      "source": "demo_fixture",
+      "video_id": "demo_video_ulcer",
+      "frame_idx": 20,
+      "path": "images/demo_ulcer_03.png",
+      "gt_label": "ulcer",
+      "severity": "severe",
+      "split": "demo",
+      "pred_label": "erosion",
+      "confidence": 0.51
+    }
+  ],
+  "note": "DEMO FIXTURES \u2014 mock only"
+}

@@ -1,0 +1,26 @@
+services:
+  api:
+    build:
+      context: .
+      dockerfile: infra/docker/Dockerfile.api
+    environment:
+      APP_MODE: demo
+      DEMO_DATA_DIR: /app/data/demo
+      ARTIFACTS_DIR: /app/artifacts
+      CORS_ORIGINS: http://localhost:5173,http://localhost:3000,http://web:5173
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./data/demo:/app/data/demo
+      - ./artifacts:/app/artifacts
+
+  web:
+    build:
+      context: .
+      dockerfile: infra/docker/Dockerfile.web
+    environment:
+      VITE_API_BASE_URL: http://localhost:8000
+    ports:
+      - "5173:5173"
+    depends_on:
+      - api

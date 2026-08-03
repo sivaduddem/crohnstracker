@@ -1,0 +1,53 @@
+{
+  "classification": {
+    "accuracy": 0.83,
+    "macro_f1": 0.81,
+    "per_class_f1": {
+      "normal": 0.9,
+      "erythema": 0.78,
+      "erosion": 0.76,
+      "ulcer": 0.8
+    },
+    "confusion_matrix": [
+      [
+        3,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        2,
+        1,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        2
+      ]
+    ],
+    "labels": [
+      "normal",
+      "erythema",
+      "erosion",
+      "ulcer"
+    ]
+  },
+  "retrieval": {
+    "recall_at_k": 0.75,
+    "precision_at_k": 0.68,
+    "map": 0.71,
+    "ndcg": 0.77,
+    "latency_ms": 4.2,
+    "embedding_ms": 12.5,
+    "k": 5
+  }
+}

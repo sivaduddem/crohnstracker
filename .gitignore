@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+dist/
+build/
+
+# Node
+node_modules/
+apps/web/dist/
+*.tsbuildinfo
+.npm/
+
+# Data & artifacts (large / generated)
+data/raw/**
+data/processed/**
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+artifacts/**
+!artifacts/.gitkeep
+data/demo/images/*.png
+data/demo/overlays/*.png
+!data/demo/images/.gitkeep
+!data/demo/overlays/.gitkeep
+
+# Env & local
+.env
+.env.local
+*.db
+*.sqlite3
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# ML caches
+*.pt
+*.pth
+*.faiss
+*.npy
+*.parquet
+wandb/
+runs/
